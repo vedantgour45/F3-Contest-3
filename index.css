@@ -1,0 +1,89 @@
+* {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-bottom: 1px solid white;
+    width: 100vw;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.right-nav a {
+    text-decoration: none;
+}
+
+h3,
+h2 {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    margin: 4% 8%;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+input::placeholder {
+    font-size: 1.3rem;
+    color: white;
+}
+
+#error-success {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h3:hover,
+h2:hover {
+    cursor: pointer;
+}
